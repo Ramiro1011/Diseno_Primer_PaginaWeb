@@ -1,0 +1,412 @@
+body{
+    background-color: #475159;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'sans-serif', 'Rubik Moonrocks', 'cursive';
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 300px;
+}
+
+/* Atributos generales */
+.contenedor{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+.boton{
+    background-color: #F29B30;
+    height: 30px;
+    border: 0;
+    padding: 0 20px;
+}
+aside#cuadrito{
+    float: right;
+    max-width: 30%;
+
+}
+.titulo{
+    font-size: 30px;
+    color: #BF712C;
+    padding-bottom: 0;
+}
+.destacado{
+    background-color: #0D0D0D;
+    color: #BF712C;
+    padding: 15px;
+}
+::placeholder{
+    font-family: 'Open Sans', 'sans-serif', 'Rubik Moonrocks', 'cursive';
+}
+
+/* header */
+header{
+    background-color: #0D0D0D;
+    color: #BF712C;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: #6C6374 5px solid;
+}
+header a{
+    color: #BF712C;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px;
+}
+header nav{
+    float: right;
+    margin-top: 0;
+}
+header #logo {
+    float: left;
+}
+header .marcado, .actual, a{
+    color: #F29B30;
+    font-weight: 400;
+}
+
+/* vidriera */
+
+#vidriera{
+    min-height: 400px;
+    background-image: url(img/sección-aurea.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: gray;
+}
+#vidriera h1{
+    margin-top: 90px;
+    font-size: 60px;
+    font-weight: 100;
+}
+#vidriera p{
+    font-size: 25px;
+}
+
+/* Newsletter */
+#newsletter{
+    background-color: #0D0D0D;
+    color: #BF712C;
+    padding: 15px;
+}
+#newsletter h3{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input{
+    width: 200px;
+    height: 20px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    max-width: 33%;
+    text-align: center;
+}
+#boxes .box img{
+    max-width: 120px;
+}
+#boxes h2{
+    font-size: 20px;
+    margin-bottom: 0%;
+    text-align: left;
+    color: white;
+}
+#boxes p{
+    font-size: 12px;
+    padding: 20px;
+    margin-top: 0%;
+    color: white;
+}
+#boxes h3{
+    margin-bottom: 0;
+    color: white;
+}
+
+/* Somos */
+#vidriera_somos{
+    min-height: 200px;
+    background-image: url(img/header3.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: gray;
+}
+article#somos_columna{
+    float: left;
+    max-width: 65%;
+}
+article#somos_columna p{
+    color: white;
+}
+
+/* Ideas */
+#vidriera_ideas{
+    min-height: 200px;
+    background-image: url(img/header2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: gray;
+}
+article#ideas_columna{
+    max-width: 100%;
+}
+#vidriera_ideas h1{
+    margin: 0;
+    font-size: 150px;
+    color: #475159;
+    padding: 0px;
+    line-height: 200px;
+}
+#objetivo{
+    background-color: #BF712C;
+    color: #0d0d0d;
+}
+.ideas_flex aside{
+    flex-direction: row;
+}
+#ideas_columna{
+    margin-top: 25px;
+}
+.ideas_flex{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.ideas_flex .destacado{
+    margin-top: 20px;
+}
+.imagenes_flex{
+    margin-top: 20px;
+    flex-direction: row;
+}
+.imagenes_flex img{
+    width: 320px;
+}
+#objetivo{
+    margin-top: 20px;
+    padding: 15px;
+}
+.imagenes_flex_2 img{
+    margin-left: 5%;
+    width: 90%;
+    
+}
+.idea_N{
+    max-width: 30%;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+#img1{
+    width: 250px;
+}
+
+
+
+/* Contacto */
+#vidriera_contacto{
+    min-height: 200px;
+    background-image: url(img/header1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: gray;
+}
+article#contacto_columna{
+    float: left;
+    max-width: 65%;
+}
+#vidriera_contacto h1{
+    margin: 0;
+    font-size: 150px;
+    color: #515b64;
+}
+aside#cuadrito .destacado input,
+aside#cuadrito .destacado textarea{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #BF712C;
+    padding: 25px;
+    text-align: center;
+    color: #000000;
+
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 150px;
+}
+.grupo1{
+    padding: auto;
+    display: flex;
+    text-align: center;
+}
+.parte{
+    flex-grow: 1;
+}
+footer .parte h1{
+    margin-bottom: 30px;
+    
+}
+footer .parte h2{
+    margin-bottom: 20px;
+}
+.red_social{
+    font-size: 35px;
+    margin: 10px;
+}
+.red_social a{
+    padding: 5px;
+    cursor: pointer;
+}
+.grupo2{
+    font-size: 15px;
+}
+
+
+
+/* Media query */
+@media (max-width: 768px) {
+    header #logo, 
+    header nav, 
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header li{
+        padding: 0 10px;
+    }
+    header h1{
+        font-size: 28px;   
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    header a{
+        font-size: 15px;
+    }
+    #vidriera h1{
+        margin-top: 40px;
+    }
+    #vidriera p{
+        font-size: 20px;
+    }
+    #newsletter h3,
+    #newsletter form{
+        float: none;
+        text-align: center;
+        width: 100%;
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    #newsletter input{
+        width: 100%;
+    }
+    .boton{
+        width: 100%;
+        display: block;
+    }
+    #boxes .box,
+    #boxes h2{
+        float: none;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    #boxes p{
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    #boxes h3{
+        font-size: 20px;
+    }
+    #boxes .box img{
+        max-inline-size: 200px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    article#somos_columna{
+        float: none;
+        max-width: 100%;
+    }
+    aside#cuadrito{
+        float: none;
+        max-width: 100%;
+        margin-top: 0px;
+    }    
+    .ideas_flex{
+        flex-direction: column;
+        width: 80%;
+    }
+    .ideas_flex h1{
+        font-size: 28px;
+    }
+    .ideas_flex p{
+        font-size: 17px;
+    }
+    aside.idea_N{
+        max-width: 90%;
+        margin-bottom: 50px;
+    }
+   .imagenes_flex_2{
+        width: 80%;
+        margin-left: 10%;
+   }
+   article#contacto_columna{
+        float: none;
+        max-width: 100%;
+   }
+   .titulo{
+        text-align: center;
+   }
+   .destacado h2,
+   .destacado form{
+        text-align: center;
+   }
+   #vidriera_contacto h1{
+    font-size: 100px;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+    }
+   .grupo1{
+        max-width: 100%;
+        flex-direction: column;
+   }
+   body{
+        padding-bottom: 600px;
+   }
+
+}
